@@ -1,7 +1,7 @@
 tasks:
   - init: mysqladmin -u root password 'gitpod' 
-        && composer create phpmyadmin/phpmyadmin, 
-        && composer create project --prefer-dist laravel/laravel
+        && composer create-project phpmyadmin/phpmyadmin, 
+        && composer create-project --prefer-dist laravel/laravel
 
 image:
   file: .gitpod.Dockerfile
